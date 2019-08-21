@@ -1,0 +1,15 @@
+//WAP a program to reverse a number//
+class reverse{
+  public static void main(String args[]){
+     int x=21;
+     int sum=0;
+     int n=21;
+    while(n>0){
+          int rem=n%10;
+          sum=sum*10+rem;
+           n=n/10;
+          }
+    System.out.println(sum);
+      }
+}
+
